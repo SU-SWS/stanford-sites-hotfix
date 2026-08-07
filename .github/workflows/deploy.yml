@@ -23,6 +23,7 @@ jobs:
           node-version: 20
       - run: yarn install --frozen-lockfile
       - run: yarn build
+      - run: cp robots.txt css/robots.txt
       - uses: actions/upload-pages-artifact@v3
         with:
           path: css

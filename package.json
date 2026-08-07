@@ -2,6 +2,7 @@
   "name": "stanford-sites-hotfix",
   "version": "1.0.0",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "build": "sass scss/style.scss:css/style.css --style=compressed --no-source-map",
     "watch": "sass --watch scss/style.scss:css/style.css"
